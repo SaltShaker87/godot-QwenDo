@@ -2,7 +2,8 @@
 
 ![Godot-Dodo logo imagined by Midjourney v5](godot_qwendo.jpg)
 
-The godot-dodo project presents a pipeline to finetune open source language models on human-created, language-specific code retrieved from GitHub.
+The godot-qwendo project, a fork of Godot-Dodo, presents a pipeline to finetune open source language models on human-created, language-specific code retrieved from GitHub.
+Updated for 2026, and starting with the Qwen 3.5-7b-coder-instruct model. 
 
 In this case, the targeted language is GDScript, but the same methodology can be applied to other languages.
 
@@ -34,11 +35,7 @@ As such, we can assemble `comment:code` data-pairs in the style of [CodeSearchNe
 
 ### Why?
 
-Some existing language models such as `gpt-4` are excellent coders. However, a lot of their ability is concentrated in only the most popular languages, such as Python or Javascript.
-
-Less widely used languages are underrepresented in the training data and experience a massive performance drop-off, where models routinely mistake syntax or hallucinate language features that do not exist.
-
-This aims to provide much more robust language-specific models that can be used to reliably generate code that compiles on first try.
+The original repo fine tuned some llama and other models on gdscript to improve its coding performance for Godot. This repo represents and updated version of that effort with more modern coding models.
 
 ## Demo
 
