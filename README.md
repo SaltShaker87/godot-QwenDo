@@ -1,6 +1,6 @@
 # godot-dodo
 
-![Godot-Dodo logo imagined by Midjourney v5](godot qwendo.jpg)
+![Godot-Dodo logo imagined by Midjourney v5](godot_qwendo.jpg)
 
 The godot-dodo project presents a pipeline to finetune open source language models on human-created, language-specific code retrieved from GitHub.
 
